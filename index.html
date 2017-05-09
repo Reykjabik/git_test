@@ -9,38 +9,53 @@
 		<meta name="author" content="Javier">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	</head>
 	<body>
-	<div class="wrapper">
-		<div id="navbar">
-			<ul id="nav-list">
-				<li>Gmail</li>
-				<li>Images</li>
-				<li>Apps</li>
-				<li>Notifications</li>
-				<li>Avatar</li>
-			</ul>
-		</div>
-		<div id="main">
-			<div id="logo">
-				<a><img src="img/logo.jpg" /></a>
+
+		<div class="wrapper">
+			<div id="navbar">
+				<ul id="nav-list">
+					<li><a><img id="avatar" src="img/avatar.jpg"/></a></li>
+					<li><a><img src="img/notifications.png"/></a></li>
+					<li><a><img src="img/apps.png"/></a></li>
+					<li><a href="https://www.google.com/imghp?hl=es-419">Imágenes</a></li>
+					<li><a href="https://www.google.com/gmail/">Gmail</a></li>
+				</ul>
 			</div>
-			<div id="searchbox"></div>
-			<div id="buttons"></div>
-			<div id="lang"></div>
+
+			<div id="main">
+				<div id="logo">
+					<a href="#"><img src="img/logo.jpg" /></a>
+				</div>
+				<div id="searchbox">
+					<form>
+						<input type="text" name="search">
+					</form>
+				</div>
+				<div id="buttons">
+					<form>
+						<button type="submit" onclick="alert('Wait dude, this is just a frontend design.')">Buscar con Google</button>
+						<button type="submit" onclick="alert('Wait dude, this is just a frontend design.')">Voy a tener suerte</button>
+					</form>
+				</div>
+				<div id="lang">Google.es también en: <a href="https://www.google.cat/">català</a> <a href="http://www.jujel.com/">galego</a> <a href="www.google.es/?hl=eu">euskara</a></div>
+			</div>
+
+			<div id="footer">
+				<ul id="stuff-list">
+					<li>Publicidad</li>
+					<li>Empresa</li>
+					<li>Acerca de</li>
+					<li id="space"></li>
+					<li>Privacidad</li>
+					<li>Condiciones</li>
+					<li>Configuración</li>					
+				</ul>
+			</div>
+
 		</div>
-		<div id="footer">
-			<ul id="stuff-list">
-				<li>Publicidad</li>
-				<li>Empresa</li>
-				<li>Acerca de</li>
-				<li>Privacidad</li>
-				<li>Condiciones</li>
-				<li>Configuación</li>
-			</ul>
-		</div>
-	</div>
 	</body>
 </html>

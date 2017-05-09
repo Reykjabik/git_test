@@ -1,13 +1,86 @@
 * {
   box-sizing: border-box;
-}
-
-li {
+  font-family: "Josefin Sans", sans-serif;
   list-style-type: none;
 }
 
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+ul {
+  padding-right: 20px;
+  margin-bottom: 0;
+}
+
+#nav-list img {
+  width: 20px;
+}
+
+#avatar {
+  height: 35px;
+  width: 35px !important;
+  border-radius: 50%;
+  margin-top: -6px;
+}
+
+#nav-list li {
+  float: right;
+  margin-left: 20px;
+}
+
+#main {
+  clear: both;
+  text-align: center;
+  margin-bottom: 90px;
+}
 #main img {
-  width: 50%;
+  width: 45%;
+  margin-top: 100px;
+}
+#main form input[type=text] {
+  width: 35%;
+  padding: 12px;
+  margin-top: 5px;
+  box-shadow: 1px 5px 9px #c6c6c6;
+}
+#main #buttons {
+  margin-top: 30px;
+}
+#main #buttons button {
+  padding: 8px;
+  font-size: 1em;
+  border: none;
+}
+#main #buttons button:hover {
+  border: 1px solid #c6c6c6;
+}
+#main #lang {
+  margin-top: 40px;
+}
+
+#footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+#stuff-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+}
+#stuff-list li {
+  flex: 1;
+}
+#stuff-list #space {
+  flex: 5;
 }
 
 /*# sourceMappingURL=style.css.map */
