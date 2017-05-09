@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+#main img {
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
