@@ -12,15 +12,16 @@
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 	<body>
 
 		<div class="wrapper">
 			<div id="navbar">
 				<ul id="nav-list">
-					<li><a><img id="avatar" src="img/avatar.jpg"/></a></li>
-					<li><a><img src="img/notifications.png"/></a></li>
-					<li><a><img src="img/apps.png"/></a></li>
+					<li><a class="not-yet" href="#"><img id="avatar" src="img/avatar.jpg"/></a></li>
+					<li><a class="not-yet" href="#"><img src="img/notifications.png"/></a></li>
+					<li><a class="not-yet" href="#"><img src="img/apps.png"/></a></li>
 					<li><a href="https://www.google.com/imghp?hl=es-419">Imágenes</a></li>
 					<li><a href="https://www.google.com/gmail/">Gmail</a></li>
 				</ul>
@@ -37,8 +38,8 @@
 				</div>
 				<div id="buttons">
 					<form>
-						<button type="submit" onclick="alert('Wait dude, this is just a frontend design.')">Buscar con Google</button>
-						<button type="submit" onclick="alert('Wait dude, this is just a frontend design.')">Voy a tener suerte</button>
+						<button type="submit" class="not-yet">Buscar con Google</button>
+						<button type="submit" class="not-yet">Voy a tener suerte</button>
 					</form>
 				</div>
 				<div id="lang">Google.es también en: <a href="https://www.google.cat/">català</a> <a href="http://www.jujel.com/">galego</a> <a href="www.google.es/?hl=eu">euskara</a></div>
@@ -57,5 +58,7 @@
 			</div>
 
 		</div>
+	
+	<script src="js/scripts.js"></script>
 	</body>
 </html>
